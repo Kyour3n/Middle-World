@@ -1,0 +1,66 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_mountain",
+  "spawners": [
+    {
+      "type": "middleworld:dwarf_warrior",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "middleworld:dwarf_archer",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "middleworld:dwarf_knight",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "middleworld:dwarf_berserker",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "middleworld:dwarf_scout",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "middleworld:dwarf_mage",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "middleworld:dwarf_healer",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "middleworld:dwarf_assassin",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "middleworld:dwarf_captain",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "middleworld:dwarf_brute",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

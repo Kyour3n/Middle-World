@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="middleworld"
+version="0.1.0"
+displayName="Middle World"
+authors="You"
+description='''
+Competing factions with a full reputation system: Elves, Goblins, Dwarves,
+Villagers, Pillagers and Piglins. Your actions change how each faction treats you.
+Stage 1: reputation core, inventory tab UI, and the animated Goblin.
+'''
+
+[[dependencies.middleworld]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.middleworld]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
